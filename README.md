@@ -102,8 +102,8 @@ Please note OSX requires to install package `pyopenssl`:
 $ pip3 install pyopenssl
 ```
 
-### Configuration instructions:
-1. Download the [**config.ini**](https://pastebin.com/reymRHSL) file.
+### Configuration instructions (This section little modded by Thigoe in this fork):
+1. Download the [**config.ini**](https://raw.githubusercontent.com/Thigoe/torrench/master/config) file.
 	* **Windows -** Copy the config file in ```C:\Users\<user>\.config\torrench\``` (create any missing directories)
 	* **Linux -** Default location is ```$XDG_CONFIG_HOME/torrench/```. If ```$XDG_CONFIG_HOME``` is not defined, it fallbacks to ```$HOME/.config/torrench/``` (Create any missing directories).
 	* **MacOS -** See minimal setup guide below.
