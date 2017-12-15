@@ -50,7 +50,7 @@ class Config(Common):
         try:
             # Get updated copy of config.ini file.
             self.logger.debug("Downloading new config.ini file")
-            url = "https://pastebin.com/raw/reymRHSL"
+            url = "https://raw.githubusercontent.com/Thigoe/torrench/master/config"
             self.logger.debug("Download complete. Saving file..")
             soup = self.http_request(url)
             res = soup.p.get_text()
