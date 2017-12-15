@@ -103,7 +103,7 @@ $ pip3 install pyopenssl
 ```
 
 ### Configuration instructions (This section little modded by Thigoe in this fork):
-1. Download the [**config.ini**](https://raw.githubusercontent.com/Thigoe/torrench/master/config) file.
+1. Download the [**config.ini**](https://raw.githubusercontent.com/Thigoe/torrench/master/config.ini) file.
 	* **Windows -** Copy the config file in ```C:\Users\<user>\.config\torrench\``` (create any missing directories)
 	* **Linux -** Default location is ```$XDG_CONFIG_HOME/torrench/```. If ```$XDG_CONFIG_HOME``` is not defined, it fallbacks to ```$HOME/.config/torrench/``` (Create any missing directories).
 	* **MacOS -** See minimal setup guide below.
